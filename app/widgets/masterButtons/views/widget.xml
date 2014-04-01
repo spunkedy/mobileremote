@@ -1,0 +1,4 @@
+<Alloy>
+	    <ImageView id="onButton" onClick="onButton"/>
+	    <ImageView id="offButton" onClick="offButton"/>
+</Alloy>

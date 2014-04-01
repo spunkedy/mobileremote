@@ -1,0 +1,8 @@
+<Alloy>
+	<Tab title="Computer" icon="images/tabgroup/computer.png"  onFocus="focused">
+		<Window title="Computer" class="container">
+			<Require id="masterBar" type="widget" src="masterBar"></Require>      
+			<Label>computer</Label>
+		</Window>
+	</Tab>
+</Alloy>

@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab title="Settings" icon="images/tabgroup/settings.png">
+		<Window title="Settings" class="settings">
+			<Label>settings</Label>
+		</Window>
+	</Tab>
+</Alloy>

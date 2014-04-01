@@ -1,0 +1,9 @@
+"Window": {
+	backgroundColor: "black"
+},
+"Label" : {
+	color : "white"
+},
+"#airplayWindow" : {
+	modal: false
+}

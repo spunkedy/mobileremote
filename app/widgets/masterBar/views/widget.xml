@@ -1,0 +1,6 @@
+<Alloy>
+	<View>
+		<Require type="widget" src="masterButtons"></Require>
+		<Require id="masterVolume" type="widget" src="volume"></Require>
+	</View>	
+</Alloy>

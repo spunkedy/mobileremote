@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"volume":"1.0","masterButtons":"1.0","masterBar":"1.0"},"theme":"blue"};

@@ -1,0 +1,17 @@
+{
+    "global": {
+        "theme": "blue"
+    },
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "dependencies": {
+        "volume": "1.0",
+        "masterButtons": "1.0",
+        "masterBar": "1.0"
+    }
+}

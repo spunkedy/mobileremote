@@ -1,0 +1,9 @@
+<Alloy>
+	<TabGroup>
+		<Require src="airplay" />
+		<Require src="computer" />
+		<Require src="ps4" />
+		<Require src="roku" />
+		<Require src="settings" />		
+	</TabGroup>
+</Alloy>

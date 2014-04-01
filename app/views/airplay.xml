@@ -1,0 +1,7 @@
+<Alloy>
+	<Tab title="Airplay" icon="images/tabgroup/airplay.png" onFocus="focused">
+		<Window title="Airplay" id="airplayWindow"  class="container">
+			<Require id="masterBar" type="widget" src="masterBar"></Require>        	
+		</Window>
+	</Tab>
+</Alloy>

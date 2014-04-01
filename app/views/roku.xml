@@ -1,0 +1,8 @@
+<Alloy>
+	<Tab title="Roku" icon="images/tabgroup/roku.png" onFocus="focused">
+		<Window title="Roku" class="container">
+			<Require id="masterBar" type="widget" src="masterBar"></Require>      
+			<Label>roku</Label>
+		</Window>
+	</Tab>
+</Alloy>

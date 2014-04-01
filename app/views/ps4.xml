@@ -1,0 +1,8 @@
+<Alloy>
+	<Tab title="PS4" icon="images/tabgroup/playstation.png" onFocus="focused">
+		<Window title="PS4" class="container">
+			<Require id="masterBar" type="widget" src="masterBar"></Require>     
+			<Label>Ps4</Label>
+		</Window>
+	</Tab>
+</Alloy>

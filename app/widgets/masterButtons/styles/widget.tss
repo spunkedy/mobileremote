@@ -1,0 +1,23 @@
+"Label": {
+	color: '#000',
+	font: {
+		fontSize: 18,
+		fontWeight: 'bold'
+	},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE
+},
+"#onButton":{
+	image:"/images/masterButtons/on.png",
+	height: "32",
+	width: "32",
+	top:"10",
+	left: "68%"
+},
+"#offButton":{
+	image:"/images/masterButtons/off.png",
+	height: "32",
+	width: "32",
+	top:"11",
+	left: "87%"
+}
