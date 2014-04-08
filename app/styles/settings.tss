@@ -1,3 +1,43 @@
 ".settings" : {
 	navBarHidden: false,
-}
+},
+"Label" : {
+	color:"black",
+	textAlign:"Ti.UI.TEXT_ALIGNMENT_CENTER",	
+	left: "3%",
+	width: "100"
+},
+"TextField": {
+	color:"#336699",
+	left:"15%",
+	width:"75%",
+	height:"60"
+},
+"#onkyo" : {
+	top: "46"
+},
+"#onkyoField": {
+	top:"26"
+},
+"#roku" : {
+	top: "133"
+},
+"#rokuField": {
+	top:"116"
+},
+// 87 more than last
+"#mythtv" : {
+	top: "220"
+},
+//90 more
+"#mythtvField": {
+	top:"206"
+},
+
+
+"#button": {
+	bottom:"50",
+	width: 40,
+    height: 40,
+    image: "images/submit.png"
+} 

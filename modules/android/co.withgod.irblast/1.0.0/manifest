@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+description: My module
+author: Ed Bond
+license: GPL
+copyright: 2014
+
+
+# these should not be edited
+name: irblast
+moduleid: co.withgod.irblast
+guid: 4ed7d034-c9c0-44a9-bdb8-94191b822401
+platform: android
+minsdk: 3.2.2.GA

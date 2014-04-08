@@ -12,7 +12,7 @@ I wrote a TCP handler for the ISCP. The app will try to keep the connection open
 
 
 
-
+## References
 
 The ISCP code is heavily based upon internet resources:
 
@@ -25,7 +25,20 @@ https://github.com/miracle2k/onkyo-eiscp
 
 The initial commit has references to icon sets from:
 
-WPZOOM, wpzoom.com https://www.iconfinder.com/search/?q=iconset:wpzoom-developer-icon-set
-feather, Cole Bemis https://www.iconfinder.com/search/?q=iconset%3Afeather
-Ionicons - http://ionicons.com/ - https://www.iconfinder.com/icons/211651/close_round_icon#size=32
+*WPZOOM, wpzoom.com https://www.iconfinder.com/search/?q=iconset:wpzoom-developer-icon-set
+
+*feather, Cole Bemis https://www.iconfinder.com/search/?q=iconset%3Afeather
+
+*Ionicons - http://ionicons.com/ - https://www.iconfinder.com/icons/211651/close_round_icon#size=32
+
+* Crystal Clear Icons by Everaldo / Yellowicon - http://www.iconarchive.com/show/crystal-clear-icons-by-everaldo.html
+
+Android module work based upon work here:
+Code for IR used with permission from Tobi at http://www.rngtng.com/
+Specifically the hex2dec for the IR code out
+https://github.com/rngtng/IrDude
+
+Ir Codes found here:
+http://www.remotecentral.com/cgi-bin/forums/viewpost.cgi?925066
+
 

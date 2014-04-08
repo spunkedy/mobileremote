@@ -8,14 +8,14 @@
 	width: Ti.UI.SIZE
 },
 "#volumeSlider": {
-	 top:"55",
+	 top:"13%",
 	 left: "4%",
-	 width:"80%"
+	 width:"70%"
 },
 "#muteButton":{
 	image:"/images/volume/mute.png",
-	height: "32",
-	width: "32",
-	 top:"56",
+	height: "40",
+	width: "40",
+	 top:"12.8%",
 	 left: "85%"
 } 

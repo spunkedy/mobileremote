@@ -37,10 +37,10 @@ module.exports = [ {
     priority: 100000.0006,
     key: "onButton",
     style: {
-        image: "/images/masterButtons/on.png",
-        height: "32",
-        width: "32",
-        top: "10",
+        backgroundImage: "/images/masterButtons/on.png",
+        height: "48",
+        width: "48",
+        top: "15",
         left: "68%"
     }
 }, {
@@ -48,10 +48,10 @@ module.exports = [ {
     priority: 100000.0007,
     key: "offButton",
     style: {
-        image: "/images/masterButtons/off.png",
-        height: "32",
-        width: "32",
-        top: "11",
+        backgroundImage: "/images/masterButtons/off.png",
+        height: "48",
+        width: "48",
+        top: "16",
         left: "87%"
     }
 } ];

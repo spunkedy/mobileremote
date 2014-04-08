@@ -1,0 +1,99 @@
+"Window": {
+	backgroundColor:"white"
+},
+"#applicationListView" : {
+	height: "30%",
+	width: "30%",
+	left: "4%",
+	top: "30%"
+	
+},
+
+//Left Column
+"#back" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/goback.png",
+	left: "40%",
+	top: "25%"	
+},
+"#left" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/back.png",
+	left: "40%",
+	top: "36%"	
+},
+"#replay" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/replay.png",
+	left: "40%",
+	top: "48%"	
+},
+"#rewind" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/rewind.png",
+	left: "40%",
+	top: "60%"	
+},
+
+//Middle Column
+"#up" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/up.png",
+	left: "51%",
+	top: "30%"	
+},
+"#down" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/down.png",
+	left: "51%",
+	top: "42%"	
+},
+
+"#select" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/select.png",
+	left: "51%",
+	top: "48%"	
+},
+
+"#play" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/play.png",
+	left: "51%",
+	top: "60%"	
+},
+
+
+// Right Column
+"#home" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/gohome.png",
+	left: "62%",
+	top: "25%"
+},
+
+"#right" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/forward.png",
+	left: "62%",
+	top: "36%"	
+},
+
+"#fastforward" : {
+	height: 48,
+	width: 48,
+	image: "/images/icons/fastforward.png",
+	left: "62%",
+	top: "60%"	
+}
+

@@ -6,9 +6,11 @@ function WPATH(s) {
 
 function Controller() {
     function onButton() {
+        Alloy.Globals.IRBlastOn();
         Alloy.Globals.onkyo.on();
     }
     function offButton() {
+        Alloy.Globals.IRBlastOff();
         Alloy.Globals.onkyo.off();
     }
     new (require("alloy/widget"))("masterButtons");
@@ -22,20 +24,20 @@ function Controller() {
     var exports = {};
     var __defers = {};
     $.__views.onButton = Ti.UI.createImageView({
-        image: "/images/masterButtons/on.png",
-        height: "32",
-        width: "32",
-        top: "10",
+        backgroundImage: "/images/masterButtons/on.png",
+        height: "48",
+        width: "48",
+        top: "15",
         left: "68%",
         id: "onButton"
     });
     $.__views.onButton && $.addTopLevelView($.__views.onButton);
     onButton ? $.__views.onButton.addEventListener("click", onButton) : __defers["$.__views.onButton!click!onButton"] = true;
     $.__views.offButton = Ti.UI.createImageView({
-        image: "/images/masterButtons/off.png",
-        height: "32",
-        width: "32",
-        top: "11",
+        backgroundImage: "/images/masterButtons/off.png",
+        height: "48",
+        width: "48",
+        top: "16",
         left: "87%",
         id: "offButton"
     });

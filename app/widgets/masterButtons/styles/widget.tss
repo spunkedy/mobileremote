@@ -8,16 +8,18 @@
 	width: Ti.UI.SIZE
 },
 "#onButton":{
-	image:"/images/masterButtons/on.png",
-	height: "32",
-	width: "32",
-	top:"10",
+	backgroundImage:"/images/masterButtons/on.png",
+	//backgroundSelectedImage:"/images/masterButtons/on_down.png",
+	height: "48",
+	width: "48",
+	top:"15",
 	left: "68%"
 },
 "#offButton":{
-	image:"/images/masterButtons/off.png",
-	height: "32",
-	width: "32",
-	top:"11",
+	backgroundImage:"/images/masterButtons/off.png",
+	//backgroundSelectedImage:"/images/masterButtons/off_down.png",
+	height: "48",
+	width: "48",
+	top:"16",
 	left: "87%"
 }

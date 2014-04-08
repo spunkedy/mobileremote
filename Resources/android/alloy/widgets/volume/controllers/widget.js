@@ -29,9 +29,9 @@ function Controller() {
     var exports = {};
     var __defers = {};
     $.__views.volumeSlider = Ti.UI.createSlider({
-        top: "55",
+        top: "13%",
         left: "4%",
-        width: "80%",
+        width: "70%",
         id: "volumeSlider",
         min: "0",
         max: "82",
@@ -41,9 +41,9 @@ function Controller() {
     setVolume ? $.__views.volumeSlider.addEventListener("stop", setVolume) : __defers["$.__views.volumeSlider!stop!setVolume"] = true;
     $.__views.muteButton = Ti.UI.createImageView({
         image: "/images/volume/mute.png",
-        height: "32",
-        width: "32",
-        top: "56",
+        height: "40",
+        width: "40",
+        top: "12.8%",
         left: "85%",
         id: "muteButton"
     });

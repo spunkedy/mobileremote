@@ -1,8 +1,31 @@
 <Alloy>
 	<Tab title="Roku" icon="images/tabgroup/roku.png" onFocus="focused">
 		<Window title="Roku" class="container">
-			<Require id="masterBar" type="widget" src="masterBar"></Require>      
-			<Label>roku</Label>
+			<Require id="masterBar" type="widget" src="masterBar"></Require>   
+			
+			   
+			    <ListView id="applicationListView" >
+			        <ListSection id="applicationsList">
+			            
+			        </ListSection>
+			    </ListView>
+			    
+			    <ImageView id="back" onClick="back"/>
+			    <ImageView id="home" onClick="home"/>
+			    
+			    <ImageView id="up" onClick="up"/>
+			    <ImageView id="down" onClick="down"/>
+			    <ImageView id="left" onClick="left"/>
+			    <ImageView id="right" onClick="right"/>
+			    
+			    <ImageView id="replay" onClick="replay"/>
+			    <ImageView id="select" onClick="select"/>
+			    
+			    			    
+			    <ImageView id="rewind" onClick="rewind"/>
+			    <ImageView id="play" onClick="play"/>			    			    
+			    <ImageView id="fastforward" onClick="fastforward"/>
+			    
 		</Window>
 	</Tab>
 </Alloy>

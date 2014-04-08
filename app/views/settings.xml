@@ -1,7 +1,14 @@
 <Alloy>
 	<Tab title="Settings" icon="images/tabgroup/settings.png">
 		<Window title="Settings" class="settings">
-			<Label>settings</Label>
+			<Label id="onkyo" text="Onkyo IP"></Label>
+			<TextField id="onkyoField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="inputs" hintText="Onkyo IP"  />
+			<Label id="roku" text="Roku IP"></Label>
+			<TextField  id="rokuField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="inputs" hintText="Roku IP" />
+			<Label id="mythtv" text="Mythtv IP"></Label>
+			<TextField  id="mythtvField" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="inputs" hintText="Roku IP" />
+									
+        	<Button id="button" onClick="saveSettings" title="save" />
 		</Window>
 	</Tab>
 </Alloy>
