@@ -1,25 +1,21 @@
-"Label": {
-	color: '#000',
-	font: {
-		fontSize: 18,
-		fontWeight: 'bold'
-	},
+"#buttonHoler":{
+	top: 0,
+	left: 0,
+	layout: "horizontal",
+	width: Ti.UI.FILL,
 	height: Ti.UI.SIZE,
-	width: Ti.UI.SIZE
 },
 "#onButton":{
+	left: "20dp",
 	backgroundImage:"/images/masterButtons/on.png",
 	//backgroundSelectedImage:"/images/masterButtons/on_down.png",
-	height: "48",
-	width: "48",
-	top:"15",
-	left: "68%"
+	height: "96",
+	width: "96",	
 },
 "#offButton":{
 	backgroundImage:"/images/masterButtons/off.png",
+	left: "20dp",
 	//backgroundSelectedImage:"/images/masterButtons/off_down.png",
-	height: "48",
-	width: "48",
-	top:"16",
-	left: "87%"
+	height: "96",
+	width: "96",	
 }

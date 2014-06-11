@@ -1,4 +1,6 @@
 <Alloy>
-	    <ImageView id="onButton" onClick="onButton"/>
-	    <ImageView id="offButton" onClick="offButton"/>
+	<View id="buttonHoler">
+	    <Button id="onButton" onClick="onButton"/>
+	    <Button id="offButton" onClick="offButton"/>
+	</View>
 </Alloy>

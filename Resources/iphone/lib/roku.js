@@ -22,7 +22,7 @@ Roku.prototype.loadApplications = function(callback) {
 };
 
 Roku.prototype.selectApplication = function(id) {
-    var url = this.httpURI + "/launch/dev?contentID=" + id;
+    var url = this.httpURI + "/launch/" + id;
     var xhr = Ti.Network.createHTTPClient({
         onerror: function(e) {
             Ti.API.info(e.error);

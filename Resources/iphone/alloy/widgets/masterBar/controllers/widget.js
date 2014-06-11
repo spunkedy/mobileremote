@@ -14,20 +14,25 @@ function Controller() {
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-    $.__views.widget = Ti.UI.createView({
-        id: "widget"
+    $.__views.controlView = Ti.UI.createView({
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: Ti.UI.FILL,
+        top: 0,
+        left: 0,
+        id: "controlView"
     });
-    $.__views.widget && $.addTopLevelView($.__views.widget);
+    $.__views.controlView && $.addTopLevelView($.__views.controlView);
     $.__views.__alloyId0 = Alloy.createWidget("masterButtons", "widget", {
         id: "__alloyId0",
-        __parentSymbol: $.__views.widget
+        __parentSymbol: $.__views.controlView
     });
-    $.__views.__alloyId0.setParent($.__views.widget);
+    $.__views.__alloyId0.setParent($.__views.controlView);
     $.__views.masterVolume = Alloy.createWidget("volume", "widget", {
         id: "masterVolume",
-        __parentSymbol: $.__views.widget
+        __parentSymbol: $.__views.controlView
     });
-    $.__views.masterVolume.setParent($.__views.widget);
+    $.__views.masterVolume.setParent($.__views.controlView);
     exports.destroy = function() {};
     _.extend($, $.__views);
     _.extend($, exports);

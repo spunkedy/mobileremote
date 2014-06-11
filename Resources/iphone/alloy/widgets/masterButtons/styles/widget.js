@@ -6,19 +6,6 @@ function WPATH(s) {
 
 module.exports = [ {
     isApi: true,
-    priority: 1000.0005,
-    key: "Label",
-    style: {
-        color: "#000",
-        font: {
-            fontSize: 18,
-            fontWeight: "bold"
-        },
-        height: Ti.UI.SIZE,
-        width: Ti.UI.SIZE
-    }
-}, {
-    isApi: true,
     priority: 1000.9001,
     key: "Window",
     style: {
@@ -34,14 +21,24 @@ module.exports = [ {
     }
 }, {
     isId: true,
+    priority: 100000.0005,
+    key: "buttonHoler",
+    style: {
+        top: 0,
+        left: 0,
+        layout: "horizontal",
+        width: Ti.UI.FILL,
+        height: Ti.UI.SIZE
+    }
+}, {
+    isId: true,
     priority: 100000.0006,
     key: "onButton",
     style: {
+        left: "20dp",
         backgroundImage: "/images/masterButtons/on.png",
-        height: "48",
-        width: "48",
-        top: "15",
-        left: "68%"
+        height: "96",
+        width: "96"
     }
 }, {
     isId: true,
@@ -49,9 +46,8 @@ module.exports = [ {
     key: "offButton",
     style: {
         backgroundImage: "/images/masterButtons/off.png",
-        height: "48",
-        width: "48",
-        top: "16",
-        left: "87%"
+        left: "20dp",
+        height: "96",
+        width: "96"
     }
 } ];

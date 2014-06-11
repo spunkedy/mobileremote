@@ -28,40 +28,30 @@ function Controller() {
     var $ = this;
     var exports = {};
     var __defers = {};
+    $.__views.VolumeView = Ti.UI.createView({
+        top: 0,
+        left: 0,
+        layout: "horizontal",
+        width: Ti.UI.FILL,
+        id: "VolumeView"
+    });
+    $.__views.VolumeView && $.addTopLevelView($.__views.VolumeView);
     $.__views.volumeSlider = Ti.UI.createSlider({
-        top: "13%",
-        left: "4%",
-        width: "70%",
+        left: "2%",
+        width: "83%",
         id: "volumeSlider",
         min: "0",
         max: "82",
         value: "50"
     });
-    $.__views.volumeSlider && $.addTopLevelView($.__views.volumeSlider);
+    $.__views.VolumeView.add($.__views.volumeSlider);
     setVolume ? $.__views.volumeSlider.addEventListener("stop", setVolume) : __defers["$.__views.volumeSlider!stop!setVolume"] = true;
-    $.__views.muteButton = Ti.UI.createImageView({
-        image: "/images/volume/mute.png",
-        height: "40",
-        width: "40",
-        top: "12.8%",
-        left: "85%",
-        id: "muteButton"
+    $.__views.muteButton = Ti.UI.createButton({
+        id: "muteButton",
+        title: "Mute"
     });
-    $.__views.muteButton && $.addTopLevelView($.__views.muteButton);
+    $.__views.VolumeView.add($.__views.muteButton);
     muteTrigger ? $.__views.muteButton.addEventListener("click", muteTrigger) : __defers["$.__views.muteButton!click!muteTrigger"] = true;
-    $.__views.volumeLabel = Ti.UI.createLabel({
-        color: "#000",
-        font: {
-            fontSize: 18,
-            fontWeight: "bold"
-        },
-        height: Ti.UI.SIZE,
-        width: "100%",
-        id: "volumeLabel",
-        top: "30",
-        left: "0"
-    });
-    $.__views.volumeLabel && $.addTopLevelView($.__views.volumeLabel);
     exports.destroy = function() {};
     _.extend($, $.__views);
     var previousVolume = 0;

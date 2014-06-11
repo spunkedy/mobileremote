@@ -6,19 +6,6 @@ function WPATH(s) {
 
 module.exports = [ {
     isApi: true,
-    priority: 1000.0008,
-    key: "Label",
-    style: {
-        color: "#000",
-        font: {
-            fontSize: 18,
-            fontWeight: "bold"
-        },
-        height: Ti.UI.SIZE,
-        width: Ti.UI.SIZE
-    }
-}, {
-    isApi: true,
     priority: 1000.9001,
     key: "Window",
     style: {
@@ -31,5 +18,16 @@ module.exports = [ {
     style: {
         navBarHidden: true,
         fullscreen: true
+    }
+}, {
+    isId: true,
+    priority: 100000.0008,
+    key: "controlView",
+    style: {
+        layout: "vertical",
+        height: Ti.UI.SIZE,
+        width: Ti.UI.FILL,
+        top: 0,
+        left: 0
     }
 } ];

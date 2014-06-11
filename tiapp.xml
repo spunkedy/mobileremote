@@ -48,7 +48,7 @@
         <theme>default</theme>
     </mobileweb>
     <modules>
-        <module platform="android">co.withgod.irblast</module>
+        <module platform="android">co.withgod.irblaster</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>

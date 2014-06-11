@@ -23,25 +23,32 @@ function Controller() {
     var $ = this;
     var exports = {};
     var __defers = {};
-    $.__views.onButton = Ti.UI.createImageView({
+    $.__views.buttonHoler = Ti.UI.createView({
+        top: 0,
+        left: 0,
+        layout: "horizontal",
+        width: Ti.UI.FILL,
+        height: Ti.UI.SIZE,
+        id: "buttonHoler"
+    });
+    $.__views.buttonHoler && $.addTopLevelView($.__views.buttonHoler);
+    $.__views.onButton = Ti.UI.createButton({
+        left: "20dp",
         backgroundImage: "/images/masterButtons/on.png",
-        height: "48",
-        width: "48",
-        top: "15",
-        left: "68%",
+        height: "96",
+        width: "96",
         id: "onButton"
     });
-    $.__views.onButton && $.addTopLevelView($.__views.onButton);
+    $.__views.buttonHoler.add($.__views.onButton);
     onButton ? $.__views.onButton.addEventListener("click", onButton) : __defers["$.__views.onButton!click!onButton"] = true;
-    $.__views.offButton = Ti.UI.createImageView({
+    $.__views.offButton = Ti.UI.createButton({
         backgroundImage: "/images/masterButtons/off.png",
-        height: "48",
-        width: "48",
-        top: "16",
-        left: "87%",
+        left: "20dp",
+        height: "96",
+        width: "96",
         id: "offButton"
     });
-    $.__views.offButton && $.addTopLevelView($.__views.offButton);
+    $.__views.buttonHoler.add($.__views.offButton);
     offButton ? $.__views.offButton.addEventListener("click", offButton) : __defers["$.__views.offButton!click!offButton"] = true;
     exports.destroy = function() {};
     _.extend($, $.__views);

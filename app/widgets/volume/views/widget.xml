@@ -1,5 +1,6 @@
 <Alloy>
+	<View id="VolumeView">
    	    <Slider id="volumeSlider" min="0" max="82" value="50" onStop="setVolume"/>
-	    <ImageView id="muteButton" onClick="muteTrigger"/>
-        <Label id="volumeLabel" width="100%" top="30" left="0" />
+	    <Button id="muteButton" title="Mute" onClick="muteTrigger"/>
+    </View>
 </Alloy>

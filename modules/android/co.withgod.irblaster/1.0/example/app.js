@@ -13,16 +13,16 @@ win.add(label);
 win.open();
 
 // TODO: write your module tests here
-var irblast = require('co.withgod.irblast');
-Ti.API.info("module is => " + irblast);
+var irblaster = require('co.withgod.irblaster');
+Ti.API.info("module is => " + irblaster);
 
-label.text = irblast.example();
+label.text = irblaster.example();
 
-Ti.API.info("module exampleProp is => " + irblast.exampleProp);
-irblast.exampleProp = "This is a test value";
+Ti.API.info("module exampleProp is => " + irblaster.exampleProp);
+irblaster.exampleProp = "This is a test value";
 
 if (Ti.Platform.name == "android") {
-	var proxy = irblast.createExample({
+	var proxy = irblaster.createExample({
 		message: "Creating an example Proxy",
 		backgroundColor: "red",
 		width: 100,

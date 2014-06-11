@@ -96,7 +96,7 @@ function Controller() {
     $.__views.back = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/goback.png",
+        image: "/images/icons/goback.png",
         left: "40%",
         top: "25%",
         id: "back"
@@ -106,7 +106,7 @@ function Controller() {
     $.__views.home = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/gohome.png",
+        image: "/images/icons/gohome.png",
         left: "62%",
         top: "25%",
         id: "home"
@@ -116,7 +116,7 @@ function Controller() {
     $.__views.up = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/up.png",
+        image: "/images/icons/up.png",
         left: "51%",
         top: "30%",
         id: "up"
@@ -126,7 +126,7 @@ function Controller() {
     $.__views.down = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/down.png",
+        image: "/images/icons/down.png",
         left: "51%",
         top: "42%",
         id: "down"
@@ -136,7 +136,7 @@ function Controller() {
     $.__views.left = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/back.png",
+        image: "/images/icons/back.png",
         left: "40%",
         top: "36%",
         id: "left"
@@ -146,7 +146,7 @@ function Controller() {
     $.__views.right = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/forward.png",
+        image: "/images/icons/forward.png",
         left: "62%",
         top: "36%",
         id: "right"
@@ -156,7 +156,7 @@ function Controller() {
     $.__views.replay = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/replay.png",
+        image: "/images/icons/replay.png",
         left: "40%",
         top: "48%",
         id: "replay"
@@ -166,7 +166,7 @@ function Controller() {
     $.__views.select = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/select.png",
+        image: "/images/icons/select.png",
         left: "51%",
         top: "48%",
         id: "select"
@@ -176,7 +176,7 @@ function Controller() {
     $.__views.rewind = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/rewind.png",
+        image: "/images/icons/rewind.png",
         left: "40%",
         top: "60%",
         id: "rewind"
@@ -186,7 +186,7 @@ function Controller() {
     $.__views.play = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/play.png",
+        image: "/images/icons/play.png",
         left: "51%",
         top: "60%",
         id: "play"
@@ -196,7 +196,7 @@ function Controller() {
     $.__views.fastforward = Ti.UI.createImageView({
         height: 48,
         width: 48,
-        image: "images/icons/fastforward.png",
+        image: "/images/icons/fastforward.png",
         left: "62%",
         top: "60%",
         id: "fastforward"

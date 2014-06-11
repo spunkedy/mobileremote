@@ -6,4 +6,6 @@ function switchView(e){
 	$.mainView.add(new Alloy.createController(id).getView());
 	
 }
+
+$.index.orientationModes = [Ti.UI.LANDSCAPE_LEFT];
 $.index.open();

@@ -44,6 +44,7 @@ function Controller() {
     $.__views.index && $.addTopLevelView($.__views.index);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.index.orientationModes = [ Ti.UI.LANDSCAPE_LEFT ];
     $.index.open();
     _.extend($, exports);
 }

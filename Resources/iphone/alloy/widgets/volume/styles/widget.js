@@ -6,19 +6,6 @@ function WPATH(s) {
 
 module.exports = [ {
     isApi: true,
-    priority: 1000.0002,
-    key: "Label",
-    style: {
-        color: "#000",
-        font: {
-            fontSize: 18,
-            fontWeight: "bold"
-        },
-        height: Ti.UI.SIZE,
-        width: Ti.UI.SIZE
-    }
-}, {
-    isApi: true,
     priority: 1000.9001,
     key: "Window",
     style: {
@@ -34,22 +21,25 @@ module.exports = [ {
     }
 }, {
     isId: true,
+    priority: 100000.0002,
+    key: "VolumeView",
+    style: {
+        top: 0,
+        left: 0,
+        layout: "horizontal",
+        width: Ti.UI.FILL
+    }
+}, {
+    isId: true,
     priority: 100000.0003,
     key: "volumeSlider",
     style: {
-        top: "13%",
-        left: "4%",
-        width: "70%"
+        left: "2%",
+        width: "83%"
     }
 }, {
     isId: true,
     priority: 100000.0004,
     key: "muteButton",
-    style: {
-        image: "/images/volume/mute.png",
-        height: "40",
-        width: "40",
-        top: "12.8%",
-        left: "85%"
-    }
+    style: {}
 } ];
